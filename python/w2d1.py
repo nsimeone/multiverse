@@ -1,3 +1,6 @@
+import sys
+print(sys.executable)
+
 pages = ["home", "about", "contact"]
 pages.append("blog")
 pages.insert(1, "products")
